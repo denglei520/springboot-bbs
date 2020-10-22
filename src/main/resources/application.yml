@@ -4,9 +4,9 @@ server:
 spring:
   datasource:
     druid:
-      url: jdbc:mysql://localhost:3306/bbs?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&useSSL=false&allowMultiQueries=true
-      username: 
-      password: 
+      url: jdbc:mysql://111.229.57.140:3306/springboot-bbs?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&useSSL=false&allowMultiQueries=true
+      username: root
+      password: denglei520
       initial-size: 1
       min-idle: 1
       max-active: 20
@@ -20,14 +20,18 @@ spring:
     servlet:
       content-type: text/html
   redis:
-    lettuce:
+    database: 0
+    timeout: 1000
+    password: denglei
+    cluster:
+      nodes: 111.229.57.140:8001,111.229.57.140:8002,111.229.57.140:8003,111.229.179.233:8004,111.229.179.233:8005,111.229.179.233:8006
+      lettuce:
       pool:
-        max-active: 8
-        max-idle: 8
-        max-wait: -1ms
-        min-idle: 0
-      port: 6379
+        max-idle: 50
+        min-idle: 10
+        max-active: 100
+        max-wait: -1
 
 mybatis:
-  type-aliases-package: cn.connext.yonyong.yonyongbbs.entity
+  type-aliases-package: cn.denglei.bbs.entity
   mapper-locations: classpath:mapper/*.xml

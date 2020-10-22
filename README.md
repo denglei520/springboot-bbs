@@ -25,48 +25,5 @@ http://47.101.193.185:8088/
 
 3）	登录成功后跳转到消息列表页面；
 
-系统展示：
 
-系统首页
 
-![image](https://github.com/yonyong/springboot-bbs/blob/master/image/index.jpg)
-
-登陆
-
-![image](https://github.com/yonyong/springboot-bbs/blob/master/image/login.jpg)
-
-注册
-
-![image](https://github.com/yonyong/springboot-bbs/blob/master/image/zhuce.jpg)
-
-文章列表
-
-![image](https://github.com/yonyong/springboot-bbs/blob/master/image/toarticle.jpg)
-
-文章详情
-
-![image](https://github.com/yonyong/springboot-bbs/blob/master/image/articleDetail1.jpg)
-
-![image](https://github.com/yonyong/springboot-bbs/blob/master/image/articleDetail2.jpg)
-
-![image](https://github.com/yonyong/springboot-bbs/blob/master/image/articleDetail3.jpg)
-
-发布文章
-
-![image](https://github.com/yonyong/springboot-bbs/blob/master/image/fabu.jpg)
-
-编辑文章
-
-![image](https://github.com/yonyong/springboot-bbs/blob/master/image/bianji.jpg)
-
-删除文章
-
-![image](https://github.com/yonyong/springboot-bbs/blob/master/image/shanchu.jpg)
-
-联系我们
-
-![image](https://github.com/yonyong/springboot-bbs/blob/master/image/contact.jpg)
-
-菜单
-
-![image](https://github.com/yonyong/springboot-bbs/blob/master/image/menu.jpg)
